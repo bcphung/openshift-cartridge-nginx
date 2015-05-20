@@ -13,7 +13,7 @@ rhc create-app nginx http://cartreflect-claytondev.rhcloud.com/github/boekkooi/o
 cd ${OPENSHIFT_REPO_DIR}/nginx/compile
 ./all
 ```
-- Once compiling is done you can download the `nginx.tar.gz` from you application. 
+- Once compiling is done you can download the `nginx.tar.gz` from your application. 
 - Extract the `nginx-{version}` from the archive and place them into the `openshift-cartridge-nginx/usr` folder.
 - Last but not least edit the `openshift-cartridge-nginx/manifest.yml` and add the versions.
 - All done just commit and push to your `openshift-cartridge-nginx` repo and use:
