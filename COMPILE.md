@@ -1,12 +1,12 @@
-# Openshift Nginx Cartridge - Compile guide
+# OpenShift Nginx Cartridge - Compile guide
 
 ### Compiling a new version
 - To compile a new version you will first need a OpenShift application.
 ```BASH
-rhc create-app nginx http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx
+rhc create-app nginx http://cartreflect-claytondev.rhcloud.com/github/bcphung/openshift-cartridge-nginx
 ```
 - Clone the repository and create a `nginx` folder.
-- Copy the `usr/compile` directory from [this](https://github.com/boekkooi/openshift-cartridge-nginx) repository.
+- Copy the `usr/compile` directory from [this](https://github.com/bcphung/openshift-cartridge-nginx) repository.
 - Set the versions you need to compile in the `nginx/compile/versions` file. Commit and push the application repository.
 - SSH into you app and go to the `nginx/compile` folder and start compiling by running the following command:
 ```BASH

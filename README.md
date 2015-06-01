@@ -18,7 +18,7 @@ rhc create-app myapp --env OPENSHIFT_NGINX_VERSION=1.8.0 http://cartreflect-clay
 ## Versions
 Currently this cartridge has the following versions:
 - 1.8.0 (latest stable version)
-- 1.9.0 (latest mainline version)
+- 1.9.1 (latest mainline version and default one)
 
 If you need another version you can compile it yourself and submit a pull request to get it integrated.
 Compile guide is available at [COMPILE.md](https://github.com/bcphung/openshift-cartridge-nginx/blob/master/COMPILE.md)
