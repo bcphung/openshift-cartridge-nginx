@@ -1,10 +1,10 @@
 Name: nginx
 Cartridge-Short-Name: NGINX
 Display-Name: Nginx
-Version: "1.9.0"
-Versions: ["1.8.0", "1.9.0"]
+Version: "1.9.1"
+Versions: ["1.8.0", "1.9.1"]
 Website: https://github.com/bcphung/openshift-cartridge-nginx
-Cartridge-Version: 0.0.2
+Cartridge-Version: 0.0.3
 Cartridge-Vendor: bcphung
 Categories:
   - web_framework
